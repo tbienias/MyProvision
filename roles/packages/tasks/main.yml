@@ -1,0 +1,35 @@
+---
+# This role upgrades Arch/Manjaro Linux and installs packages via pacman.
+
+- name: Initial system upgrade.
+  become: yes
+  community.general.pacman:
+    update_cache: yes
+    upgrade: yes
+
+- name: Install official packages.
+  become: yes
+  community.general.pacman:
+    name: "{{ official_packages }}"
+    state: latest
+
+- name: Temporarily elevate user for AUR helpers.
+  become: yes
+  ansible.builtin.lineinfile:
+    path: /etc/sudoers.d/11-install-aur
+    line: "{{ lookup('env','USER') }} ALL=(ALL) NOPASSWD: /usr/bin/pacman"
+    create: yes
+    validate: 'visudo -cf %s'
+
+- name: Install AUR packages.
+  aur:
+    name: "{{ aur_packages }}"
+    state: latest
+    use: yay
+    aur_only: yes
+
+- name: Revoke elevation from user for AUR helpers.
+  become: yes
+  ansible.builtin.file:
+    path: /etc/sudoers.d/11-install-aur
+    state: absent

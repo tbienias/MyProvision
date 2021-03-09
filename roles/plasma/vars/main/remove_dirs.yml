@@ -1,0 +1,12 @@
+---
+# This list contains all folders which will be deleted from home.
+
+remove_dirs:
+  - Desktop
+  - Documents
+  - Downloads
+  - Music
+  - Pictures
+  - Public
+  - Templates
+  - Videos

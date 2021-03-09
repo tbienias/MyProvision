@@ -1,0 +1,18 @@
+---
+# This list contains all packages which will be installed from AUR.
+# List is sorted alphabetically for better readability.
+
+aur_packages:
+  - authy
+  - google-chrome
+  - joplin-desktop
+  - kwin-scripts-window-colors
+  - nerd-fonts-complete
+  - plasma5-applets-latte-separator
+  - plasma5-applets-latte-spacer
+  - plasma5-applets-window-title
+  - plasma5-applets-eventcalendar
+  - plasma5-applets-panon
+  - plasma5-applets-virtual-desktop-bar-git
+  - spotify
+  - visual-studio-code-bin

@@ -1,0 +1,13 @@
+---
+# This list contains all folders which will be created in home.
+
+create_dirs:
+  - code
+  - desktop
+  - documents
+  - downloads
+  - music
+  - pictures
+  - public
+  - templates
+  - videos

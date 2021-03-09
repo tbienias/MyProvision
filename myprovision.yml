@@ -1,0 +1,9 @@
+---
+# MyProvision Playbook for Arch/Manjaro Linux System Configuration.
+
+- hosts: localhost
+  connection: local
+  roles:
+    - packages
+    - plasma
+    - vscode

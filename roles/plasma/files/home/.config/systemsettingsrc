@@ -1,0 +1,23 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/desktop/aa.kksrc,file:$HOME/desktop/shortcuts.kksrc
+Recent URLs[$e]=file:$HOME/desktop/,file:$HOME/,file:$HOME/documents/
+detailViewIconSize=16
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA/wAAAQBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Virtual-1 Height 1080=705
+Virtual-1 Height 1920x1080=1053
+Virtual-1 Height 768=651
+Virtual-1 Width 1024=922
+Virtual-1 Width 1920=1024
+Virtual-1 Width 1920x1080=1020
+Virtual-1 XPosition=37
+Virtual-1 XPosition 1920x1080=900
+Virtual-1 YPosition=281
+Virtual-1 YPosition 1920x1080=55
+
+[Open-with settings]
+CompletionMode=1
+History=ulaun

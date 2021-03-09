@@ -1,0 +1,5 @@
+---
+# Dependencies for myprovision.
+
+roles:
+  - name: kewlfft.aur

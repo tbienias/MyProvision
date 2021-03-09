@@ -1,0 +1,8 @@
+[Common]
+OutlineCloseButton=true
+ShadowColor=255,255,255
+ShadowSize=ShadowSmall
+ShadowStrength=26
+
+[Windeco]
+ButtonSize=ButtonSmall

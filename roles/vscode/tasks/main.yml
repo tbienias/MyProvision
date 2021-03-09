@@ -1,0 +1,20 @@
+---
+# This role installs Visual Studio Code Extensions and settings.json.
+
+- name: Install Visual Studio Code Extensions.
+  ansible.builtin.shell: code --install-extension "{{ item }}"
+  loop: "{{ extensions }}"
+
+- name: Create settings directory.
+  ansible.builtin.file:
+    path: ~/.config/Code/User
+    recurse: yes
+    state: directory
+
+- name: Install settings.json for Visual Studio Code.
+  ansible.builtin.copy:
+    src: settings.json
+    dest: ~/.config/Code/User/settings.json
+    owner: "{{ lookup('env','USER') }}"
+    group: "{{ lookup('env','USER') }}"
+    mode: '0644'

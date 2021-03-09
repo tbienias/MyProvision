@@ -1,0 +1,41 @@
+---
+# This list contains all packages which are available from official sources.
+# List is sorted alphabetically for better readability.
+
+official_packages:
+  - base-devel
+  - blender
+  - breeze-gtk
+  - chromium
+  - cmake
+  - discord
+  - gimp
+  - kcolorchooser
+  - kde-servicemenus-rootactions
+  - inkscape
+  - latte-dock
+  - materia-kde
+  - nextcloud-client
+  - noto-fonts-emoji
+  - obs-studio
+  - oh-my-zsh
+  - papirus-icon-theme
+  - plasma5-applets-thermal-monitor
+  - python2
+  - signal-desktop
+  - speedcrunch
+  - teamspeak3
+  - thunderbird
+  - ttf-anonymous-pro
+  - ttf-roboto
+  - ttf-roboto-mono
+  - ulauncher
+  - unzip
+  - unrar
+  - vlc
+  - vkd3d
+  - wine
+  - wine-mono
+  - wireshark-cli
+  - wireshark-qt
+  - yay

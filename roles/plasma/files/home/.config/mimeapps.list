@@ -1,0 +1,20 @@
+[Added Associations]
+application/json=visual-studio-code.desktop;
+application/x-cmakecache=visual-studio-code.desktop;cmake-gui.desktop;org.kde.kate.desktop;okularApplication_txt.desktop;
+text/markdown=visual-studio-code.desktop;okularApplication_md.desktop;org.kde.kate.desktop;okularApplication_txt.desktop;
+text/plain=visual-studio-code.desktop;org.kde.kate.desktop;okularApplication_txt.desktop;
+text/vnd.kde.kcrash-report=visual-studio-code.desktop;org.kde.kate.desktop;okularApplication_txt.desktop;
+text/x-cmake=visual-studio-code.desktop;org.kde.kate.desktop;okularApplication_txt.desktop;
+text/x-meson=visual-studio-code.desktop;org.kde.kate.desktop;okularApplication_txt.desktop;
+text/x-txt2tags=visual-studio-code.desktop;org.kde.kate.desktop;okularApplication_txt.desktop;
+
+[Default Applications]
+application/json=visual-studio-code.desktop;
+application/x-cmakecache=visual-studio-code.desktop;
+text/markdown=visual-studio-code.desktop;
+text/plain=visual-studio-code.desktop;
+text/vnd.kde.kcrash-report=visual-studio-code.desktop;
+text/x-cmake=visual-studio-code.desktop;
+text/x-meson=visual-studio-code.desktop;
+text/x-txt2tags=visual-studio-code.desktop;
+x-scheme-handler/sgnl=signal.desktop

@@ -1,0 +1,36 @@
+[$Version]
+update_info=okular.upd:annotation-toolbar,okular.upd:builtin-annotations
+
+[Core Performance]
+MemoryLevel=Greedy
+
+[Dlg Accessibility]
+RecolorBackground=49,54,59
+RecolorForeground=220,220,220
+
+[Document]
+PaperColor=81,81,81
+RenderMode=Recolor
+
+[General]
+ShellOpenFileInTabs=true
+
+[Main View]
+ShowBottomBar=true
+ShowLeftPanel=false
+SplitterSizes=490,991
+
+[Nav Panel]
+SidebarIconSize=22
+SidebarShowText=false
+
+[PageView]
+EditToolBarPlacement=3
+ViewContinuous=false
+
+[Reviews]
+BuiltinAnnotationTools=<tool name="Green Marker" type="highlight" id="1"><engine color="#4cff00" type="TextSelector"><annotation color="#4cff00" type="Highlight"/></engine><shortcut>2</shortcut></tool>,<tool type="underline" id="2"><engine color="#ff0000" type="TextSelector"><annotation color="#ffff0000" type="Underline"/></engine></tool>,<tool type="squiggly" id="3"><engine color="#ff0000" type="TextSelector"><annotation color="#ffff0000" type="Squiggly"/></engine></tool>,<tool type="strikeout" id="4"><engine color="#ff0000" type="TextSelector"><annotation color="#ffff0000" type="StrikeOut"/></engine></tool>,<tool type="typewriter" id="5"><engine type="PickPoint" block="true"><annotation color="#00ffffff" textColor="#000000" width="0" type="Typewriter" font="Noto Sans\\\\\\\\\\,10\\\\\\\\\\,-1\\\\\\\\\\,5\\\\\\\\\\,50\\\\\\\\\\,0\\\\\\\\\\,0\\\\\\\\\\,0\\\\\\\\\\,0\\\\\\\\\\,0\\\\\\\\\\,Regular"/></engine></tool>,<tool type="note-inline" id="6"><engine color="#ffff00" hoverIcon="tool-note-inline" type="PickPoint" block="true"><annotation color="#ffffff00" type="FreeText" font="Noto Sans\\\\\\\\\\,10\\\\\\\\\\,-1\\\\\\\\\\,5\\\\\\\\\\,50\\\\\\\\\\,0\\\\\\\\\\,0\\\\\\\\\\,0\\\\\\\\\\,0\\\\\\\\\\,0\\\\\\\\\\,Regular"/></engine></tool>,<tool type="note-linked" id="7"><engine color="#ffff00" hoverIcon="tool-note" type="PickPoint"><annotation color="#ffffff00" icon="Note" type="Text"/></engine></tool>,<tool type="ink" id="8"><engine color="#00ff00" type="SmoothLine"><annotation color="#ff00ff00" width="2" type="Ink"/></engine></tool>,<tool name="Arrow" type="straight-line" id="9"><engine color="#000000" type="PolyLine" points="2"><annotation color="#ff000000" width="2" endStyle="3" type="Line"/></engine></tool>,<tool type="straight-line" id="10"><engine color="#000000" type="PolyLine" points="2"><annotation color="#ff000000" width="2" type="Line"/></engine></tool>,<tool name="Green Rect" type="rectangle" id="11"><engine color="#ff4cff00" type="PickPoint" block="true"><annotation color="#ff4cff00" width="3" type="GeomSquare"/></engine><shortcut>5</shortcut></tool>,<tool type="ellipse" id="12"><engine color="#00ffff" type="PickPoint" block="true"><annotation color="#ff00ffff" width="3" type="GeomCircle"/></engine></tool>,<tool type="polygon" id="13"><engine color="#007eee" type="PolyLine" points="-1"><annotation color="#ff007eee" width="2" type="Line"/></engine></tool>,<tool type="stamp" id="14"><engine type="PickPoint" block="true" size="64"><annotation type="Stamp"/></engine></tool>
+QuickAnnotationTools=<tool type="highlight" name="Yellow Marker" id="1"><engine type="TextSelector" color="#ccff00"><annotation type="Highlight" color="#ccff00"/></engine><shortcut>1</shortcut></tool>,<tool type="highlight" name="Green Marker" id="2"><engine type="TextSelector" color="#4cff00"><annotation type="Highlight" color="#4cff00"/></engine><shortcut>2</shortcut></tool>,<tool type="highlight" name="Red Marker" id="3"><engine type="TextSelector" color="#ff00cc"><annotation type="Highlight" color="#ff00cc"/></engine><shortcut>3</shortcut></tool>,<tool type="note-inline" name="Orange Inline Note" id="4"><engine type="PickPoint" color="#ffffb300" block="true" hoverIcon="tool-note-inline"><annotation type="FreeText" width="0.5" color="#ffffb300" font="Anonymous Pro\\,10\\,-1\\,5\\,75\\,0\\,0\\,0\\,0\\,0\\,Bold"/></engine><shortcut>4</shortcut></tool>,<tool type="rectangle" name="Green Rect" id="5"><engine type="PickPoint" color="#ff4cff00" block="true"><annotation type="GeomSquare" width="3" color="#ff4cff00"/></engine><shortcut>5</shortcut></tool>,<tool type="rectangle" name="Red Rect" id="6"><engine type="PickPoint" color="#ffff00cc" block="true"><annotation type="GeomSquare" width="3" color="#ffff00cc"/></engine><shortcut>6</shortcut></tool>,<tool type="highlight" name="Orange Marker" id="7"><engine type="TextSelector" color="#ffb300"><annotation type="Highlight" color="#ffb300"/></engine><shortcut>7</shortcut></tool>,<tool type="highlight" name="Blue Marker" id="8"><engine type="TextSelector" color="#00ccff"><annotation type="Highlight" color="#00ccff"/></engine><shortcut>8</shortcut></tool>,<tool type="rectangle" name="Blue Rect" id="9"><engine type="PickPoint" color="#ff00ccff" block="true"><annotation type="GeomSquare" width="3" color="#ff00ccff"/></engine><shortcut>9</shortcut></tool>,<tool type="note-linked" name="Yellow Note" id="10"><engine type="PickPoint" color="#ccff00" hoverIcon="tool-note"><annotation type="Text" color="#ccff00" icon="Note"/></engine></tool>,<tool type="note-linked" name="Green Note" id="11"><engine type="PickPoint" color="#4cff00" hoverIcon="tool-note"><annotation type="Text" color="#4cff00" icon="Note"/></engine></tool>,<tool type="note-linked" name="Blue Note" id="12"><engine type="PickPoint" color="#00ccff" hoverIcon="tool-note"><annotation type="Text" color="#00ccff" icon="Note"/></engine></tool>,<tool type="note-linked" name="Red Note" id="13"><engine type="PickPoint" color="#ff00cc" hoverIcon="tool-note"><annotation type="Text" color="#ff00cc" icon="Note"/></engine></tool>,<tool type="note-linked" name="Orange Note" id="14"><engine type="PickPoint" color="#ffb300" hoverIcon="tool-note"><annotation type="Text" color="#ffb300" icon="Note"/></engine></tool>
+
+[Zoom]
+ZoomMode=2

@@ -1,0 +1,34 @@
+[DownloadDialog Settings]
+Virtual-1 Height 1080=550
+Virtual-1 Width 1920=800
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/edna-tweaked.layout.latte,file:$HOME/edna-tweaked.layout.latte
+Recent URLs[$e]=file:$HOME/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+Virtual-1 Height 1080=453
+Virtual-1 Width 1920=826
+
+[PlasmaThemeExtended]
+outlineWidth=1
+
+[ScreenConnectors]
+10=Virtual-1
+
+[UniversalSettings]
+badges3DStyle=false
+canDisableBorders=true
+currentLayout=Edna-Tweaked
+downloadWindowSize=800,550
+lastNonAssignedLayout=Edna-Tweaked
+launchers=
+layoutsColumnWidths=109,178,87,40
+layoutsWindowSize=700,593
+memoryUsage=0
+metaPressAndHoldEnabled=true
+mouseSensitivity=2
+screenTrackerInterval=2500
+showInfoWindow=true
+version=2

@@ -1,0 +1,43 @@
+---
+# This role is responsible for setting up the desktop.
+
+- name: Change desktop icons for Breeze Dark to Materia.
+  become: yes
+  ansible.builtin.file:
+    src: /usr/share/plasma/desktoptheme/Materia-Color/icons
+    dest: /usr/share/plasma/desktoptheme/breeze-dark/icons
+    owner: root
+    group: root
+    state: link
+
+- name: Remove default favorites from start menu.
+  ansible.builtin.shell: "sqlite3 ~/.local/share/kactivitymanagerd/resources/database 'DELETE FROM ResourceLink;' '.exit'"
+
+- name: Insert new favorites to start menu.
+  ansible.builtin.shell: sqlite3 ~/.local/share/kactivitymanagerd/resources/database "INSERT INTO ResourceLink VALUES(\":global\",\"org.kde.plasma.favorites.applications\",\"{{ item }}\");" '.exit'
+  loop: "{{ favorite_apps }}"
+
+- name: Copy dotfiles to destination.
+  ansible.builtin.copy:
+    src: home/
+    dest: ~/
+    owner: "{{ lookup('env','USER') }}"
+    group: "{{ lookup('env','USER') }}"
+    mode: preserve
+
+- name: Remove directories due to naming convention.
+  ansible.builtin.file:
+    path: "~/{{ item }}"
+    state: absent
+  loop: "{{ remove_dirs }}"
+
+- name: Create directories with correct naming.
+  ansible.builtin.file:
+    path: "~/{{ item }}"
+    recurse: yes
+    state: directory
+  loop: "{{ create_dirs }}"
+
+- name: Change default shell to zsh.
+  become: yes
+  ansible.builtin.shell: "chsh -s /usr/bin/zsh {{ lookup('env','USER') }}"

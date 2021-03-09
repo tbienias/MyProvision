@@ -1,0 +1,24 @@
+---
+# This list contains favorite apps to appear in main menu.
+# These will be inserted to the kactivitymanager database.
+# See also https://askubuntu.com/a/1262035
+
+favorite_apps:
+  - applications:firefox.desktop
+  - applications:thunderbird.desktop
+  - applications:signal-desktop.desktop
+  - applications:discord.desktop
+  - applications:org.kde.dolphin.desktop
+  - applications:joplin.desktop
+  - applications:visual-studio-code.desktop
+  - applications:blender.desktop
+  - applications:gimp.desktop
+  - applications:org.kde.kcolorchooser.desktop
+  - applications:com.obsproject.Studio.desktop
+  - applications:spotify.desktop
+  - applications:speedcrunch.desktop
+  - applications:org.kde.konsole.desktop
+  - applications:wireshark.desktop
+  - applications:systemsettings.desktop
+  - applications:org.kde.ksysguard.desktop
+  - applications:org.kde.ksystemlog.desktop
